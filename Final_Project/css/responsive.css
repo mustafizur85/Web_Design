@@ -1,0 +1,184 @@
+
+@media(max-width: 991px){
+
+
+/*---Header area section-----*/ 
+
+.menu-items{
+	position: relative;  
+}
+.menu{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background:rgba(26, 188, 156,0.4);
+	width: 100%;
+	border-top: 1px solid #1abc9c;
+}
+
+.menu ul{
+	display: block;
+	margin-left: 15px;
+	font-size: 12px;
+}
+
+.mobile-menu{
+	display: flex;
+	justify-content: flex-end;
+	padding: 40px;
+}
+
+
+.mobile-menu i{
+	color: #fff;
+	font-size: 20px;
+}
+
+
+.menu-body-text p:before{
+	content: "";
+	display: block;
+	width: 35px;
+	height: 1px;
+	background: #1abc9c;
+	position: absolute;
+	top: 15px;
+	left: 25%;
+}
+
+.menu-body-text p:after{
+	content: "";
+	display: block;
+	width: 35px;
+	height: 1px;
+	background: #1abc9c;
+	position: absolute;
+	top: 15px;
+	right: 25%;
+}
+
+/*---Feature area section-----*/ 
+
+.feature-items{
+	position: relative;
+	margin-top: 20px;
+}
+
+.feature-text h4{}
+
+.feature-icon-1{
+	margin-top: 100px;
+}
+
+.feature-icon-1 i{
+	position: absolute;
+	left: 5%;
+	top: -80px;
+	
+}
+
+.feature-icon-2{
+	margin-top: 100px;
+}
+
+.feature-icon-2 i{
+	position: absolute;
+	left: 5%;
+	top: -80px;
+	
+}
+
+.feature-icon-3{
+	margin-top: 100px;
+}
+
+.feature-icon-3 i{
+	position: absolute;
+	left: 5%;
+	top: -80px;
+	
+}
+
+
+
+
+
+
+
+}
+
+
+
+@media(max-width: 767px){
+
+	/*---Header area section-----*/
+
+.menu-body-text p:before{
+	content: "";
+	display: block;
+	width: 35px;
+	height: 1px;
+	background: #1abc9c;
+	position: absolute;
+	top: 15px;
+	left: 10%;
+}
+
+.menu-body-text p:after{ 
+	content: "";
+	display: block;
+	width: 35px;
+	height: 1px;
+	background: #1abc9c;
+	position: absolute;
+	top: 15px;
+	right: 10%;
+}
+
+
+/*---About section-----*/
+
+.about-text h2{
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+/*---service section-----*/
+
+.service-items .service-icon-1 i{
+	transform: translate(-8px,-50%);
+}
+
+.service-items .service-icon-2 i{
+	transform: translate(-8px,-50%);
+}
+
+.service-items .service-icon-3 i{
+	transform: translate(-8px,-50%);
+}
+
+.service-items .service-icon-4 i{
+	transform: translate(-8px,-50%);
+}
+
+.service-items .service-icon-5 i{
+	transform: translate(-8px,-50%);
+}
+
+.service-items .service-icon-6 i{
+	transform: translate(-8px,-50%);
+}
+
+
+/*---Contact section-----*/
+
+.right-heading{
+	margin-top: 10px;
+}
+
+
+
+} 
+
+
