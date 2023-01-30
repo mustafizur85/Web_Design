@@ -1,11 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+
+/*Genarel CSS*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif; 
+}
+
+img	{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+p{
+	font-size: 15px;
+
+}
 
 
-h1{
-	color: red;
+
+/*Top area css*/
+
+.top_area{
+	background: #3498db;
 }
-#uni{
-	text-transform: uppercase;
-}
-.tech{
-	background: red;
-}
+.top_content{}
+.top_icon{}
+.top_icon ul{}
+.top_icon ul li{}
+.top_icon ul li a{}
+
+
