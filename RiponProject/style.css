@@ -37,24 +37,30 @@ p{
 /*Top area css*/
 
 .top_area{
-	background: #3498db;
-	padding: 4px 4px;
+	background: #2980b9
+	
 }
 .top_content{}
 .top_content h5{
 	font-size: 13px;
 	color: #ffffff;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-weight: 600;
 }
 .top_content h6{
 	font-size: 13px;
 	color: #ffffff;
 	font-weight: 600;
 	text-align: right;
+	margin-top: 8px;
 }
 .top_icon{}
 .top_icon ul{
 	display: flex;
 	justify-content: flex-end;
+	margin-right: 20px;
+	margin-top: 3px;
 }
 .top_icon ul li{
 	padding-left: 5px;
@@ -67,8 +73,9 @@ p{
 	border-radius: 360px ;
 } 
 .top_area_left{
-	background: #000000;
+	background: #3498db;
 	padding: 5px 5px;
+	border-radius: 35px 0 0;
 }
 
 
