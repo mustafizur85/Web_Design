@@ -77,5 +77,8 @@ p{
 	padding: 5px 5px;
 	border-radius: 35px 0 0;
 }
+.top_icon ul li i:hover{
+	color: #000;
+}
 
 
