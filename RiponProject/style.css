@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
 
 /*Genarel CSS*/
@@ -9,7 +10,7 @@
 
 body{
 	font-family: 'Open Sans', sans-serif; 
-}
+} 
 
 img	{
 	width: 100%;
@@ -81,4 +82,45 @@ p{
 	color: #000;
 }
 
+
+/*Top menu area css*/
+
+
+.top_menu_area{
+	background: #ffffff;
+	padding: 10px 10px;
+
+}
+.top_logo{}
+.top_logo a img:hover{
+	transform: translatey(-3px);
+	transition: 1s;
+}
+.menu{}
+.menu ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.menu ul li{
+	padding: 8px 8px;
+	margin-top: 5px;
+	font-size: 18px;
+
+}
+.menu ul li a{
+	color: #27ae60;
+	font-weight: 800;	
+}
+
+.menu ul li a:hover{
+	color: #e67e22;
+}
+
+/*Top mobile menu area css*/
+.mobile-menu{
+	display: none;
+}
+.mobile-menu i{
+	cursor: pointer;
+}
 
